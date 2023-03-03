@@ -44,6 +44,9 @@ const About = () => {
                             </ul>
                             {/* stop */}
                         </div>
+                        <div>
+                            {/* start */}
+                        </div>
                     </div>
                    
                 </div>
