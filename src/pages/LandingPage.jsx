@@ -5,7 +5,7 @@ const LandingPage = () => {
     return ( 
         <div className="relative">
             <div>
-                <Background className="fixed"/>
+                <Background className="fixed "/>
             </div>
             <div className="absolute inset-0">
                 <div>
