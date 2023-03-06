@@ -10,12 +10,12 @@ const Carousel = ({children:slides, autoSlide=false, autoSlideInterval=2000,}) =
         setCurr((curr)=>(curr===slides.length-1 ?0:curr+1));
         useEffect(()=>{
             if(!autoSlide)return
-                const slideInterval = setInterval(next,autoSlideInterval)
+                const slideInterval = setInterval(next, autoSlideInterval)
                 return()=>clearInterval(slideInterval)
             
         },[]);
     return ( 
-        <div className="overflow-hidden relative">
+        <div className="overflow-hidden md:overflow-visible  relative">
             <div className="flex transition-transform ease-out duration-500 opacity-100" style={{transform:`translateX(-${curr * 100}%)`}}>{slides}</div>
             <div className="absolute inset-0 flex items-center justify-between p-4">
                 <button onClick={prev} className='p-1 rounded-full bg-orange-400 opacity-80 hover:bg-orange-300'>

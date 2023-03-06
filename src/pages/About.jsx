@@ -3,7 +3,7 @@ import Background from "../components/Background";
 
 const About = () => {
     return ( 
-        <div className="relative">
+        <div className="relative overflow-hidden">
             <div className="">
                 <Background/>
             </div>
@@ -11,7 +11,7 @@ const About = () => {
                 <div>
                     <Navbar/>
                 </div>
-                <div className="bg-black  w-full opacity-50 md:flex text-orange-400">
+                <div className="bg-black rounded-3xl md:w-3/4 md:justify-center md:items-center h-4/5 opacity-50 md:flex text-orange-400">
                     <div className="mb-6 md:p-16">
                         <h1 className="text-6xl">ZEMYEN STUDIOS </h1>
                     </div>
