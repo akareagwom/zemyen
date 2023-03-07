@@ -29,7 +29,7 @@ const About = () => {
                             <p>We are experienced, growing, creative, innovative and committed to the satisfaction of our customers/clients, followers. We provide services and deliveries both within and away from our office facility, and that with comparatively better speed. We are dedicated to societal peace and progress. We also create contents on our own to communicate good and moral values for a better society. Competence, creativity, excellence, a vibrant customer relationship, speed and innovation are our watchword.</p>
                         </div>
                         <div>
-                            <h1 className="text-2xl font-mono">Our Core Values </h1>
+                            <h1 className="text-2xl   font-mono">Our Core Values </h1>
                             <ul>
                                 <li>Integrity </li>
                                 <li>Transparency </li>
