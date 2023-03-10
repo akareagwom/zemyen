@@ -4,7 +4,7 @@ import Background from "../components/Background";
 const About = () => {
     return ( 
         <div className="relative overflow-hidden">
-            <div className="">
+            <div className="static">
                 <Background/>
             </div>
            <div className="absolute inset-0">

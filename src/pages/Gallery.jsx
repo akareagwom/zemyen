@@ -17,7 +17,7 @@ const Gallery = () => {
                 <div>
                     <NavBar/>
                 </div>
-                <div className="max-w-lg md:w-full md:ml-96">
+                <div className="max-w-lg md:px-32 overflow-x-hidden md:w-full md:ml-96">
                 <Carousel autoSlide={true}>
                     {slides.map((slide) =>(
                         <img src={slide} alt=""/>
