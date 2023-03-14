@@ -1,18 +1,21 @@
 import Navbar from "../components/Navbar";
+import { Link } from "react-router-dom";
+import { FaFacebook,FaInstagram} from "react-icons/fa";
+import { RiInstagramFill} from "react-icons/ri";
 
 const Contact = () => {
     return ( 
-        <div className="bg-hero h-screen w-full bg-cover bg-center bg-no-repeat brightness-75 p-0">
+        <div className="bg-hero  w-full bg-cover bg-center bg-no-repeat brightness-75 p-0">
             <div>
                 <Navbar/>
             </div>
-            <main className="text-orange-400 md:text-center">
-                <div>
-                    <h1 className="text-3xl md:text-5xl">WE'D LOVE TO HEAR FROM YOU</h1>
+            <main className=" font-[Inter] md:text-center">
+                <div className="text-orange-400">
+                    <h1 className="text-3xl md:text-5xl">WE WOULD LOVE TO HEAR FROM YOU</h1>
                     <h3>We are here to help and answer any question you might have. We look forward to hearing from you</h3>
                 </div>
-                <section className="text-center md:ml-96 md:flex-wrap w-max-lg">
-                    <form class="w-full bg-white first-letter:rounded max-w-lg">
+                <section className="text-center md:ml-80 md:flex-wrap w-max-lg">
+                    <form class="w-full bg-white first-letter:rounded max-w-[450px] p-1">
                         <div class="flex flex-wrap -mx-3 mb-6">
                             <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                             <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
@@ -37,10 +40,10 @@ const Contact = () => {
                             </div>
                         </div>
                         <div className="flex justify-center flex-wrap px-3 -mx-3 mb-6 ">
-                            <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+                            {/* <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
                                 Your Message
-                            </label>
-                            <div className="relative mb-3 xl:w-96 border-gray-200" data-to-input-wrapper-init>
+                            </label> */}
+                            <div className="relative text-black mb-3 xl:w-96 border-gray-200" data-to-input-wrapper-init>
                                 <textarea
                                 className="peer block min-h-[auto] w-full rounded border-0 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
                                 id="exampleFormControlTextarea1"
@@ -57,7 +60,12 @@ const Contact = () => {
                             <button>Send Message</button>
                         </div>
                     </form>
+                 
                 </section>
+                <footer className="text-pink-400">
+                    <Link to="https://www.facebook.com/emmanuel.kwapyil?mibextid=ZbWKwL"><FaFacebook className="text-[#3b5998]"/></Link> 
+                   <FaInstagram/>
+                </footer>
             </main>
         </div>
      );
