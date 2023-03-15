@@ -17,10 +17,10 @@ const Gallery = () => {
                 <div>
                     <NavBar/>
                 </div>
-                <div className="max-w-lg md:px-32 overflow-x-hidden md:w-full md:ml-96">
+                <div className="max-w-lg md:px-28 overflow-x-hidden md:w-full md:ml-72">
                 <Carousel autoSlide={true}>
                     {slides.map((slide) =>(
-                        <img src={slide} alt=""/>
+                        <img className="md:rounded md:p-4" src={slide} alt=""/>
                     ))}
                 </Carousel>
             </div>

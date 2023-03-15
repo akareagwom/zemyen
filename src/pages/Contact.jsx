@@ -1,7 +1,8 @@
 import Navbar from "../components/Navbar";
 import { Link } from "react-router-dom";
 import { FaFacebook,FaInstagram} from "react-icons/fa";
-import { RiInstagramFill} from "react-icons/ri";
+import { RiWhatsappFill} from "react-icons/ri";
+import Instagram from "../images/instagram.svg"
 
 const Contact = () => {
     return ( 
@@ -11,7 +12,7 @@ const Contact = () => {
             </div>
             <main className=" font-[Inter] md:text-center">
                 <div className="text-orange-400">
-                    <h1 className="text-3xl md:text-5xl">WE WOULD LOVE TO HEAR FROM YOU</h1>
+                    <h1 className="text-3xl md:text-[2.5rem]">WE WOULD LOVE TO HEAR FROM YOU</h1>
                     <h3>We are here to help and answer any question you might have. We look forward to hearing from you</h3>
                 </div>
                 <section className="text-center md:ml-80 md:flex-wrap w-max-lg">
@@ -60,12 +61,13 @@ const Contact = () => {
                             <button>Send Message</button>
                         </div>
                     </form>
-                 
+                    <footer className=" flex mt-2 text-white text-[11px] align-baseline justify-around w-[400px]">
+                        <Link className="flex align-baseline ml-1" to="https://www.facebook.com/emmanuel.kwapyil?mibextid=ZbWKwL"><FaFacebook className="text-[#3b5998]"/>Emmanuel Kwapyil</Link> 
+                        <Link className="flex align-baseline ml-1" to=""><img src={Instagram} className="w-[18px] h-[18px] " alt="" srcset="" />@zemyenstudios</Link>
+                        <Link to="" className="flex align-baseline ml-1"> <RiWhatsappFill className="text-green-400"/>07039642650</Link>
+                    </footer>
                 </section>
-                <footer className="text-pink-400">
-                    <Link to="https://www.facebook.com/emmanuel.kwapyil?mibextid=ZbWKwL"><FaFacebook className="text-[#3b5998]"/></Link> 
-                   <FaInstagram/>
-                </footer>
+               
             </main>
         </div>
      );
