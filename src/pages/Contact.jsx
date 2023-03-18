@@ -62,7 +62,7 @@ const Contact = () => {
                                 >
                             </div>
                         </div>
-                        <div className="text-black h-8 m-9 rounded bg-[#4169e1]">
+                        <div className="text-black h-8 absolute top-[334px] left-[464px] m-9 rounded bg-[#4169e1]">
                             <button>Send Message</button>
                         </div>
                     </form>

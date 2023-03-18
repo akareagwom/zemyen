@@ -9,10 +9,23 @@ export default function NavBar() {
 
     return (
         <nav className="w-full ">
-            <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+            <div 
+            className="
+            justify-between
+            px-4 mx-auto 
+            lg:max-w-7xl 
+            md:items-center 
+            md:flex 
+            md:px-8">
                 <div className="mt-[-60px]">
-                    <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                            <div >
+                    <div className="
+                    flex 
+                    items-center 
+                    justify-between 
+                    py-3 
+                    md:py-5 
+                    md:block">
+                            <div className="absolute top-[24px] left-1">
                                 <img src={Zem} className="h-[100px] w-[120px]" alt="" srcset="" />
                             </div>
                         <div className="md:hidden">
