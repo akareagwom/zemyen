@@ -17,7 +17,7 @@ export default function NavBar() {
             md:items-center 
             md:flex 
             md:px-8">
-                <div className="mt-[-60px]">
+                <div className="">
                     <div className="
                     flex 
                     items-center 
@@ -25,12 +25,12 @@ export default function NavBar() {
                     py-3 
                     md:py-5 
                     md:block">
-                            <div className="absolute top-[24px] left-1">
-                                <img src={Zem} className="h-[100px] w-[120px]" alt="" srcset="" />
+                            <div className="absolute p-0 md:top-[-5px] left-1">
+                                <img src={Zem} className="h-[95px] w-[130px] p-0" alt="" srcset="" />
                             </div>
                         <div className="md:hidden">
                             <button
-                                className="p-2 text-gray-700 rounded-md outline-none focus:border-orange-400 focus:border"
+                                className="p-2 absolute left-[345px] text-gray-700 rounded-md outline-none focus:border-[#4169e1] focus:border"
                                 onClick={() => setNavbar(!navbar)}
                             >
                                 {navbar ? (
@@ -72,17 +72,17 @@ export default function NavBar() {
                             navbar ? "block" : "hidden"
                         }`}
                     >
-                        <ul className="items-center  justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                            <li className="text-[#000] w-[90px] h-[30px] rounded-[5px] cursor-pointer hover:bg-[#4169e1] hover:text-gray-300">
+                        <ul className="items-center absolute md:right-5 md:top-[25px]  justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+                            <li className="md:text-[#000] text-white w-[90px] h-[30px] rounded-[5px] cursor-pointer hover:bg-[#4169e1] hover:text-gray-300">
                                 <Link to="/">Home</Link>
                             </li>
-                            <li className="text-[#000] w-[90px] h-[30px] rounded-[5px] cursor-pointer hover:bg-[#4169e1] hover:text-gray-300">
+                            <li className="md:text-[#000] text-white w-[90px] h-[30px] rounded-[5px] cursor-pointer hover:bg-[#4169e1] hover:text-gray-300">
                                 <Link to="/Gallery">Gallery</Link>
                             </li>
-                            <li className="text-[#000] w-[90px] h-[30px] rounded-[5px] cursor-pointer hover:bg-[#4169e1] hover:text-gray-300">
+                            <li className="md:text-[#000] text-white w-[90px] h-[30px] rounded-[5px] cursor-pointer hover:bg-[#4169e1] hover:text-gray-300">
                                 <Link to="/About">About US</Link>
                             </li>
-                            <li className="text-[#000] w-[90px] h-[30px] rounded-[5px] cursor-pointer hover:bg-[#4169e1] hover:text-gray-300">
+                            <li className="md:text-[#000] text-white w-[90px] h-[30px] rounded-[5px] cursor-pointer hover:bg-[#4169e1] hover:text-gray-300">
                                 <Link to="/Contact">Contact US</Link>
                             </li>
                         </ul>

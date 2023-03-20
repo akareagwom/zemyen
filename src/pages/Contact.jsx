@@ -20,14 +20,14 @@ const Contact = () => {
                     <h1 className="text-3xl md:text-[2.5rem]">WE WOULD LOVE TO HEAR FROM YOU</h1>
                     <h3>We are here to help and answer any question you might have. We look forward to hearing from you</h3>
                 </div> */}
-                <section className="text-center md:ml-80 md:flex-wrap w-max-lg">
+                <section className="text-center mt-12 md:ml-80 md:flex-wrap w-max-lg">
                     <form class="w-full bg-white rounded-[10px] h-[330px] first-letter:rounded max-w-[450px] p-1">
                         <div class="flex flex-wrap -mx-3 mb-6">
                             <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                             <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
                                 First Name
                             </label>
-                            <input className="appearance-none block w-full bg-gray-200 text-gray-700 border  rounded py-2 px-1 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" />
+                            <input className="appearance-none block w-full bg-gray-200 text-gray-700   rounded py-2 px-1 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" />
                             
                             </div>
                             <div class="w-full md:w-1/2 px-3">
@@ -62,14 +62,14 @@ const Contact = () => {
                                 >
                             </div>
                         </div>
-                        <div className="text-black h-8 absolute top-[334px] left-[464px] m-9 rounded bg-[#4169e1]">
+                        <div className="text-black h-8 w-[100px] absolute top-[345px] left-[464px] m-9 rounded bg-[#4169e1]">
                             <button>Send Message</button>
                         </div>
                     </form>
                     <footer className="absoulute flex mt-2 text-white text-[11px] align-baseline justify-around w-[400px]">
-                        <Link className="flex align-baseline ml-1" to="https://www.facebook.com/emmanuel.kwapyil?mibextid=ZbWKwL"><FaFacebook className="text-[#3b5998] "/></Link> 
-                        <Link className="flex align-baseline ml-1" to=""><img src={Instagram} className="w-[18px] h-[18px] " alt="" srcset="" /></Link>
-                        <Link to="" className="flex align-baseline ml-1"> <RiWhatsappFill className="text-green-400"/></Link>
+                        <Link className="flex align-baseline ml-1" to="https://www.facebook.com/emmanuel.kwapyil?mibextid=ZbWKwL"><FaFacebook className="text-[#3b5998] w-[18px] h-[18px]"/></Link> 
+                        <Link className="flex align-baseline ml-1" to="https://instagram.com/zemyenstudios?igshid=ZDdkNTZiNTM="><img src={Instagram} className="w-[18px] h-[18px] " alt="" srcset="" /></Link>
+                        <Link to="" className="flex align-baseline ml-1"> <RiWhatsappFill className="text-green-400 w-[18px] h-[18px]"/></Link>
                     </footer>
                 </section>
                

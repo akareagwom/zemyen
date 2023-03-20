@@ -11,7 +11,7 @@ const About = () => {
                 <div>
                     <Navbar/>
                 </div>
-                <div className="md:ml-32 bg-black rounded-3xl md:w-3/4 md:justify-center md:items-center h-4/5 opacity-50 md:flex text-[#4169e1]">
+                <div className="md:ml-32 md:mt-6 bg-black rounded-3xl md:w-3/4 md:justify-center md:items-center h-4/5 opacity-50 md:flex text-[#4169e1]">
                     <div className="mb-6 md:p-16">
                         <h1 className="text-6xl">ZEMYEN STUDIOS </h1>
                     </div>
