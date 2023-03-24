@@ -73,16 +73,16 @@ export default function NavBar() {
                         }`}
                     >
                         <ul className="items-center absolute md:right-5 md:top-[25px]  justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                            <li className="md:text-[#000] text-white w-[90px] h-[30px] rounded-[5px] cursor-pointer hover:bg-[#4169e1] hover:text-gray-300">
+                            <li className="md:text-white text-white w-[90px] h-[30px] rounded-[5px] cursor-pointer hover:bg-[#4169e1] hover:text-gray-300">
                                 <Link to="/">Home</Link>
                             </li>
-                            <li className="md:text-[#000] text-white w-[90px] h-[30px] rounded-[5px] cursor-pointer hover:bg-[#4169e1] hover:text-gray-300">
+                            <li className="md:text-white text-white w-[90px] h-[30px] rounded-[5px] cursor-pointer hover:bg-[#4169e1] hover:text-gray-300">
                                 <Link to="/Gallery">Gallery</Link>
                             </li>
-                            <li className="md:text-[#000] text-white w-[90px] h-[30px] rounded-[5px] cursor-pointer hover:bg-[#4169e1] hover:text-gray-300">
+                            <li className="md:text-white text-white w-[90px] h-[30px] rounded-[5px] cursor-pointer hover:bg-[#4169e1] hover:text-gray-300">
                                 <Link to="/About">About US</Link>
                             </li>
-                            <li className="md:text-[#000] text-white w-[90px] h-[30px] rounded-[5px] cursor-pointer hover:bg-[#4169e1] hover:text-gray-300">
+                            <li className="md:text-white text-white w-[90px] h-[30px] rounded-[5px] cursor-pointer hover:bg-[#4169e1] hover:text-gray-300">
                                 <Link to="/Contact">Contact US</Link>
                             </li>
                         </ul>
