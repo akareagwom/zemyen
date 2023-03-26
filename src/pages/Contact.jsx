@@ -20,7 +20,7 @@ const Contact = () => {
                     <h1 className="text-3xl md:text-[2.5rem]">WE WOULD LOVE TO HEAR FROM YOU</h1>
                     <h3>We are here to help and answer any question you might have. We look forward to hearing from you</h3>
                 </div> */}
-                <section className="text-center mt-12 md:ml-80 md:flex-wrap w-max-lg">
+                <section className="text-center mt-[100px] md:ml-80 md:flex-wrap w-max-lg">
                     <form class="w-full bg-white rounded-[10px] h-[330px] first-letter:rounded max-w-[450px] p-1">
                         <div class="flex flex-wrap -mx-3 mb-6">
                             <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
@@ -51,7 +51,7 @@ const Contact = () => {
                             </label> */}
                             <div className="relative text-black mb-3 xl:w-96 border-gray-200" data-to-input-wrapper-init>
                                 <textarea
-                                className="peer block min-h-[auto] w-full rounded border-0 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+                                className="peer  block min-h-[auto] w-full rounded border-0 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
                                 id="exampleFormControlTextarea1"
                                 rows="3"
                                 placeholder=""></textarea>
@@ -62,7 +62,7 @@ const Contact = () => {
                                 >
                             </div>
                         </div>
-                        <div className="text-black h-8 w-[100px] absolute top-[345px] left-[464px] m-9 rounded bg-[#4169e1]">
+                        <div className="text-black h-8 w-[100px] absolute top-[395px] left-[464px] m-9 rounded bg-[#4169e1]">
                             <button>Send Message</button>
                         </div>
                     </form>
