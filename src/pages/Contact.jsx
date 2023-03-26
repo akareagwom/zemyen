@@ -20,7 +20,7 @@ const Contact = () => {
                     <h1 className="text-3xl md:text-[2.5rem]">WE WOULD LOVE TO HEAR FROM YOU</h1>
                     <h3>We are here to help and answer any question you might have. We look forward to hearing from you</h3>
                 </div> */}
-                <section className="text-center mt-[100px] md:ml-[400px] md:flex-wrap w-max-lg">
+                <section className="text-center mt-[100px] md:ml-[600px] md:flex-wrap w-max-lg">
                     <form class="w-full bg-white rounded-[10px] h-[330px] first-letter:rounded max-w-[450px] p-1">
                         <div class="flex flex-wrap -mx-3 mb-6">
                             <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
