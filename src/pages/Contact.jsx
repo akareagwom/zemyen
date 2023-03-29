@@ -21,7 +21,7 @@ const Contact = () => {
                     <h3>We are here to help and answer any question you might have. We look forward to hearing from you</h3>
                 </div> */}
                 <section className="text-center mt-[100px] md:ml-[600px] md:flex-wrap w-max-lg">
-                    <form class="w-full bg-white rounded-[10px] h-[330px] first-letter:rounded max-w-[450px] p-1">
+                    <form class="w-full  rounded-[10px] h-[330px] first-letter:rounded max-w-[450px] p-1">
                         <div class="flex flex-wrap -mx-3 mb-6">
                             <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                             <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
@@ -62,7 +62,7 @@ const Contact = () => {
                                 >
                             </div>
                         </div>
-                        <div className="text-black h-8 w-[100px] absolute top-[395px] left-[464px] m-9 rounded bg-[#4169e1]">
+                        <div className="text-black h-8 w-[100px] top-[95px] left-[64px] m-9 rounded bg-[#4169e1]">
                             <button>Send Message</button>
                         </div>
                     </form>
