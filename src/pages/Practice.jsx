@@ -9,9 +9,9 @@ import "swiper/css/navigation"
 import { EffectCoverflow,Pagination,Navigation } from "swiper";
 
 import slide1 from '../images/zem1.jpg'
-import slide3 from '../images/zem3.jpg'
-import slide4 from '../images/zem4.jpg'
-import slide5 from '../images/zem5.jpg'
+import slide3 from '../images/zem9.jpg'
+import slide4 from '../images/zem12.jpg'
+import slide5 from '../images/zem13.jpg'
 import slide6 from '../images/zem6.jpg'
 import slide7 from '../images/zem7.jpg'
 
@@ -46,22 +46,22 @@ const Practice = () => {
                 className=" swiper_container md:w-[62rem] md:h-[26rem]   relative "
             >
                 <SwiperSlide>
-                    <img className="py-[1px] rounded-[20px] w-[37rem] h-[26rem] px-[1px] object-cover " src={slide4} alt="" srcset="" />
+                    <img className="md:py-[1px] rounded-[20px] w-[57rem] h-[16rem] md:w-[37rem] md:h-[26rem] px-[1px] object-cover " src={slide4} alt="" srcset="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className="py-[1px] rounded-[20px] w-[37rem] h-[26rem] px-[1px] object-cover " src={slide3} alt="" srcset="" />
+                    <img className="md:py-[1px] rounded-[20px] w-[57rem] h-[16rem] md:w-[37rem] md:h-[26rem] px-[1px] object-cover " src={slide3} alt="" srcset="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className="py-[1px] rounded-[20px] w-[37rem] h-[26rem] px-[1px] object-cover " src={slide4} alt="" srcset="" />
+                    <img className="md:py-[1px] rounded-[20px] w-[57rem] h-[16rem] md:w-[37rem] md:h-[26rem] px-[1px] object-cover " src={slide4} alt="" srcset="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className="py-[1px] rounded-[20px] w-[37rem] h-[26rem] px-[1px] object-cover " src={slide5} alt="" srcset="" />
+                    <img className="md:py-[1px] rounded-[20px] w-[57rem] h-[16rem] md:w-[37rem] md:h-[26rem] px-[1px] object-cover " src={slide5} alt="" srcset="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className="py-[1px] rounded-[20px] w-[37rem] h-[26rem] px-[1px] object-cover " src={slide6} alt="" srcset="" />
+                    <img className="md:py-[1px] rounded-[20px] w-[57rem] h-[16rem] md:w-[37rem] md:h-[26rem] px-[1px] object-cover " src={slide6} alt="" srcset="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className="py-[1px] rounded-[20px] w-[400px] h-[26rem] px-[1px] object-cover " src={slide7} alt="" srcset="" />
+                    <img className="py-[1px] rounded-[20px] w-[57rem] h-[16rem] md:w-[400px] md:h-[26rem] px-[1px] object-cover " src={slide7} alt="" srcset="" />
                 </SwiperSlide>
                 <div className="swiper_controler ">
                     <div className="swiper-button-prev slider-arrow">
