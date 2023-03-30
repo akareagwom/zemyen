@@ -19,8 +19,8 @@ import slide7 from '../images/zem7.jpg'
 const Practice = () => {
     return ( 
         <div>
-            <div className="text-[3rem] text-white">
-                <h1>Gallery</h1>
+            <div className="text-[3rem] text-white  ">
+                <h1 className="font-[Roboto]">Gallery</h1>
             </div>
             <Swiper
                 effect={"coverflow"}
