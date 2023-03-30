@@ -20,7 +20,7 @@ const Contact = () => {
                     <h1 className="text-3xl md:text-[2.5rem]">WE WOULD LOVE TO HEAR FROM YOU</h1>
                     <h3>We are here to help and answer any question you might have. We look forward to hearing from you</h3>
                 </div> */}
-                <section className="text-center mt-[100px] md:ml-[600px] md:flex-wrap w-max-lg">
+                <section className="text-center mt-[100px] md:ml-[300px] md:flex-wrap w-max-lg">
                     <form class="w-full  rounded-[10px] h-[330px] first-letter:rounded max-w-[450px] p-1">
                         <div class="flex flex-wrap -mx-3 mb-6">
                             <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
@@ -49,7 +49,7 @@ const Contact = () => {
                             {/* <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
                                 Your Message
                             </label> */}
-                            <div className="relative text-black mb-3 xl:w-96 border-gray-200" data-to-input-wrapper-init>
+                            <div className="relative text-white mb-3 xl:w-96 border-gray-200" data-to-input-wrapper-init>
                                 <textarea
                                 className="peer  block min-h-[auto] w-full rounded border-0 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
                                 id="exampleFormControlTextarea1"
@@ -57,12 +57,12 @@ const Contact = () => {
                                 placeholder=""></textarea>
                                 <label
                                 for="exampleFormControlTextarea1"
-                                className="pointer-events-none absolute top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-black transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-neutral-200"
+                                className="pointer-events-none absolute top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-white transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-neutral-200"
                                 > textarea</label
                                 >
                             </div>
                         </div>
-                        <div className="text-black h-8 w-[100px] top-[95px] left-[64px] m-9 rounded bg-[#4169e1]">
+                        <div className="text-black h-8 w-[100px] top-[95px] left-[64px] mt-[-20px] ml-[150px] rounded bg-[#4169e1]">
                             <button>Send Message</button>
                         </div>
                     </form>

@@ -18,7 +18,7 @@ const Gallery = () => {
                 <div>
                     <NavBar/>
                 </div>
-                <div className=" md:top-8 md:left-10 md:absolute">
+                <div className="">
                 <Practice/>
                 </div>
             </div>
