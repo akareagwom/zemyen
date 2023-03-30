@@ -11,7 +11,7 @@ const Contact = () => {
               <div className="static">
                 <Background/>
             </div>
-           <div className="absolute inset-0">
+           <div className="absolute inset-0 overflow-hidden">
            <div>
                 <Navbar/>
             </div>
@@ -62,7 +62,7 @@ const Contact = () => {
                                 >
                             </div>
                         </div>
-                        <div className="text-black h-8 w-[100px] top-[95px] left-[64px] mt-[-20px] ml-[150px] rounded bg-[#4169e1]">
+                        <div className="text-black h-8 w-[100px] top-[95px] left-[64px] md:mt-[-20px] md:ml-[150px] rounded bg-[#4169e1]">
                             <button>Send Message</button>
                         </div>
                     </form>
