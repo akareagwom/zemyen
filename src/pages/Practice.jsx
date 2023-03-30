@@ -19,7 +19,7 @@ import slide7 from '../images/zem7.jpg'
 const Practice = () => {
     return ( 
         <div>
-            <div className="text-[3rem] text-white  ">
+            <div className="text-[3rem] text-white mt-[40px] md-[20px] ">
                 <h1 className="font-[Roboto]">Gallery</h1>
             </div>
             <Swiper
