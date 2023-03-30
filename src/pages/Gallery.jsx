@@ -18,7 +18,7 @@ const Gallery = () => {
                 <div>
                     <NavBar/>
                 </div>
-                <div className="">
+                <div className="overflow-hidden">
                 <Practice/>
                 </div>
             </div>
