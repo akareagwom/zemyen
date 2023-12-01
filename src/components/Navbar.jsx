@@ -87,6 +87,13 @@ export default function NavBar() {
                             <li className="md:text-white text-white w-[90px] h-[30px] rounded-[5px] cursor-pointer hover:bg-[#4169e1] hover:text-gray-300">
                                 <Link to="/Contact">Contact US</Link>
                             </li>
+                            <button class="transition bg-slate-500 delay-700 duration-300 ease-in-out ...">
+                                Button C
+                                <span class="relative flex h-3 w-3">
+  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+  <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+</span>
+                                </button>
                         </ul>
                     </div>
                 </div>
