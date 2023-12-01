@@ -8,7 +8,7 @@ export default function NavBar() {
     
 
     return (
-        <nav className="w-full ">
+        <nav className="w-full bg-[#3B6346] ">
             <div 
             className="
             justify-between
@@ -16,7 +16,9 @@ export default function NavBar() {
             lg:max-w-7xl 
             md:items-center 
             md:flex 
-            md:px-8">
+            md:px-8
+            
+            ">
                 <div className="">
                     <div className="
                     flex 
@@ -25,9 +27,9 @@ export default function NavBar() {
                     py-3 
                     md:py-5 
                     md:block">
-                            <div className="absolute p-0 md:top-[-6px] top-[-10px] left-1">
+                            {/* <div className="absolute p-0 md:top-[-6px] top-[-10px] left-1">
                                 <img src={Zem} className="h-[99px] w-[130px] p-0" alt="" srcset="" />
-                            </div>
+                            </div> */}
                         <div className="md:hidden">
                             <button
                                 className="p-2 absolute left-[315px] text-gray-700 rounded-md outline-none focus:border-[#4169e1] focus:border"
@@ -69,10 +71,10 @@ export default function NavBar() {
                 <div>
                     <div
                         className={`flex-1 bg-black w-[100%] h-[100vh] md:h-0 opacity-70  md:bg-transparent lg:bg-transparent justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
-                            navbar ? "block" : "hidden"
+                            navbar ? "block" : "hidden" 
                         }`}
                     >
-                        <ul className="items-center absolute md:right-5 md:top-[25px]  justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+                        <ul className="items-center absolute md:right-5 md:top-[0px]  justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                             <li className="md:text-white text-white w-[90px] h-[30px] rounded-[5px] cursor-pointer hover:bg-[#4169e1] hover:text-gray-300">
                                 <Link to="/">Home</Link>
                             </li>
