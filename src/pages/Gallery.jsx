@@ -6,12 +6,13 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
+import 'swiper/css/autoplay';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 // import required modules
-import { EffectCoverflow, Pagination } from 'swiper';
+import { EffectCoverflow, Pagination, Autoplay } from 'swiper';
 
 const slides = [
     "https://images.unsplash.com/photo-1554941829-202a0b2403b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
@@ -23,7 +24,6 @@ const slides = [
 const Gallery = () => {
     return ( 
         <div className="relative ">
-            <Background/>
             <div className="absolute inset-0">
                 <div>
                     <NavBar/>
@@ -43,35 +43,36 @@ const Gallery = () => {
           slideShadows: true,
         }}
         pagination={true}
-        modules={[EffectCoverflow, Pagination]}
-        className="mySwiper w-[60%] "
+        autoplay={{delay: 2000}}
+        modules={[EffectCoverflow, Pagination, Autoplay]}
+        className="mySwiper w-[100%] "
       >
         <SwiperSlide>
-          <img className="w-[400px]" src="https://swiperjs.com/demos/images/nature-1.jpg" />
+          <img className="w-[450px]" src="https://swiperjs.com/demos/images/nature-1.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="w-[400px]" src="https://swiperjs.com/demos/images/nature-2.jpg" />
+          <img className="w-[450px]" src="https://swiperjs.com/demos/images/nature-2.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="w-[400px]" src="https://swiperjs.com/demos/images/nature-3.jpg" />
+          <img className="w-[450px]" src="https://swiperjs.com/demos/images/nature-3.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="w-[400px]" src="https://swiperjs.com/demos/images/nature-4.jpg" />
+          <img className="w-[450px]" src="https://swiperjs.com/demos/images/nature-4.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="w-[400px]" src="https://swiperjs.com/demos/images/nature-5.jpg" />
+          <img className="w-[450px]" src="https://swiperjs.com/demos/images/nature-5.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="w-[400px]" src="https://swiperjs.com/demos/images/nature-6.jpg" />
+          <img className="w-[450px]" src="https://swiperjs.com/demos/images/nature-6.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="w-[400px]" src="https://swiperjs.com/demos/images/nature-7.jpg" />
+          <img className="w-[450px]" src="https://swiperjs.com/demos/images/nature-7.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="w-[400px]" src="https://swiperjs.com/demos/images/nature-8.jpg" />
+          <img className="w-[450px]" src="https://swiperjs.com/demos/images/nature-8.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="w-[400px]" src="https://swiperjs.com/demos/images/nature-9.jpg" />
+          <img className="w-[450px]" src="https://swiperjs.com/demos/images/nature-9.jpg" />
         </SwiperSlide>
       </Swiper>
                 </div>
